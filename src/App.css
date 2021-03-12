@@ -1,38 +1,20 @@
 .App {
-  text-align: center;
+    font-family: 'Nunito', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.appTitle{
+    color: #121212;
+    margin: 30px 0 15px 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tags{
+    text-decoration: none;
+    color: #121212;
+    margin: 7px;
+    font-size: medium;
+    transition: all 0.5s;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.tags:hover{
+    color: tomato;
+    /* opacity: 60%; */
+    cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+    
