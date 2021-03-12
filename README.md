@@ -7,9 +7,9 @@ I used React.js to build this frontend application for Segmed. The app has super
 
 ## Install Locally
 If you want to run it on your local computer,
-1. Clone the repo: [https://github.com/saronnhong/medical_reporter](https://github.com/saronnhong/medical_reporter)
-2. `npm install`  to install the dependencies
-3. `npm start`    to start the app   
+1. `git clone https://github.com/saronnhong/medical_reporter.git` Clone the repository
+2. `npm install`  To install the dependencies
+3. `npm start`    To start the app   
 
 
 ## Deployed
