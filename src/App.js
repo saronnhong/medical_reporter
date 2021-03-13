@@ -28,8 +28,6 @@ class App extends Component {
     let tempState = [];
     for (let i = 0; i < BOOKS.length; i++) {
       let fileContents = BOOKS[i].location;
-      // let fileAuthor = BOOKS[i].author;
-      // let fileTitle = BOOKS[i].title;
       let fileId = BOOKS[i].id;
       let test = fileContents.toLowerCase().replace(/[^A-Za-z' ;]/g, "").split(' ');
 
@@ -127,7 +125,6 @@ class App extends Component {
     let newArr=[];
     if(currentTag.includes(id)){
       newArr= currentTag.filter(word => word !== id)
-      // console.log(newArr);
     }
     if(item === "goodreport"){
       this.setState({...this.state, tags: {...tags, "goodreport": newArr}});
@@ -152,7 +149,7 @@ class App extends Component {
             <div className="col-md-10">
               <div className="row">
                 <div className="col-md-12">
-                  <h1 className="appTitle text-center">Medical Reports Searcher</h1>
+                  <h1 className="appTitle text-center">Medical Reporter</h1>
                 </div>
               </div>
               <SearchBar

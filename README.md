@@ -11,6 +11,6 @@ If you want to run it on your local computer,
 2. `npm install`  To install the dependencies
 3. `npm start`    To start the app   
 
-
-## Deployed
-The App is hosted here: [https://saronnhong.github.io/gmail_for_medical_reports](https://saronnhong.github.io/gmail_for_medical_reports)
+## Screenshots
+Search results display 14 reports per page.
+![Screenshot](./public/medical_reporter_ss.png)
